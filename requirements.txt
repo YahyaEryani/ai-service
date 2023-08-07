@@ -1,0 +1,31 @@
+# Web Framework
+fastapi[all]
+
+# ASGI Server
+uvicorn
+
+# Database Connection
+mysql-connector-python
+
+# Data Validation
+pydantic
+
+# Vector Similarity Searches
+ pinecone-client 
+
+# Visualization
+chart-studio
+plotly
+
+# Transformers Library
+transformers
+torch  # PyTorch is a requirement for Hugging Face's Transformers
+
+# Testing
+pytest
+
+# for managing environment variables during development
+python-dotenv 
+
+# If you integrate OpenAI or other AI services, you would also include their SDK or client libraries.
+openai  
